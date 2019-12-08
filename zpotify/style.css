@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+
+main{
+    display: block;
+}
+
+
+.cuerpo{
+    /*border: 2px solid red;*/
+    width: 1440px;
+    height: 1024px;
+    background: #E5E5E5;
+
+}
+
+.rectangle-1{
+position: absolute;
+width: 608px;
+height: 946px;
+left: 433px;
+top: 83px;
+
+background: #f2fcff;
+/*border: 2px solid blue;*/
+border: 2px solid #c3f1ff;
+box-sizing: border-box;
+border-radius: 30px;
+margin-bottom: 30px;
+
+}
+
+.tusartistas{
+    display: block;
+    height: 55px;
+    left: 474px;
+    text-align: center;
+    margin: 20px 40px;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    color: #2C2C2C;
+    
+}
+
+.seg-art{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.rectangle-2{
+    
+    display: block;
+    width: 140px;
+    height: 140px;
+    left: 463px;
+    margin: 15px 17px 13px;
+    top: 206px;
+
+    background: #5AD2AE;
+    border: 1px solid #469f85;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+}
+
+.style-text{
+    margin: 0px 10px 0px;
+    text-align: center ;
+    font: condensed 90% Arial;
+    color: #ffffff;
+}
+
+.imagen{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 4px 25px 5px;
+    background: url(imagen.png);
+    left: calc(50% - 90px/2 - 187px);
+}
