@@ -22,7 +22,7 @@ main {
 .caja-login {
   margin: auto;
   width: 600px;
-  height: 450px;
+  height: 455px;
   left: 420px;
   top: 287px;
   background: #F2FCFF;
@@ -85,7 +85,7 @@ main {
   line-height: 28px;
   width: 500px;
   height: 80px;
-  margin-top: 20px;
+  margin-top: 5px;
   margin-bottom: 10px;
 }
 
@@ -95,6 +95,17 @@ main {
   background: #469F85;
 }
 
+
+.smallred {
+  color: rgb(240, 65, 65);
+  box-sizing: border-box;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+}
 
 .formulario-login small {
   color: #AFAFAF;
@@ -107,7 +118,7 @@ main {
 }
 
 /* Color de texto de ayuda */
-.formulario-login input::placeholder {
+.formulario-login  input::placeholder {
   color: #5AD2AE;
   font-family: Arial;
   font-style: normal;
@@ -115,6 +126,18 @@ main {
   font-size: 24px;
   line-height: 28px;
   box-sizing: border-box;
-padding: 20px;
   opacity: 1;
+}
+
+.formulario-login input
+{
+  color: #5AD2AE;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  opacity: 1;
+  padding: 20px;
+  
 }
